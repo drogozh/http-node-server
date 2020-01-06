@@ -4,6 +4,7 @@ documentRoot
 var docRoot = process.argv[2]?process.argv[2]:'.';
 var port = process.argv[3]?(+process.argv[3]):8080;
 console.log('Document Root: ' + docRoot);
+console.log('Listening on port: ' + port);
 
 var CONTENT_TYPE_MAP = {
 
